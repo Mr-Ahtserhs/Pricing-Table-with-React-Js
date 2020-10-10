@@ -1,13 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;600;800&display=swap");
+
+:root {
+  --primary-color: #ff4b5c;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.header > .heading > h2 {
+  font-weight: 800;
+  font-size: 25px;
+  color: var(--primary-color);
+}
+
+.header > .heading > p {
+  margin-top: -10px;
+  font-weight: 400;
+}
+
+.price-card {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.contain {
+  position: relative;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 40px 40px;
+}
+
+.contain .box {
+  position: relative;
+  height: auto;
+  background: #ffffff;
+  align-self: flex-start;
+}
+
+.contain .box::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: #fff;
+  transform: skew(1.2deg, 1.2deg);
+  z-index: -1;
+}
+
+.contain .box::before {
+  background: linear-gradient(
+    315deg,
+    var(--primary-color),
+    var(--primary-color)
+  );
+}
+
+.content {
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mprice {
+  margin: 0 auto;
+  border: 1px solid white;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  box-shadow: 0px 3px 6px #00000029;
+  text-align: center;
+}
+
+.mprice > h2 {
+  font-weight: 800;
+  color: var(--primary-color);
+}
+
+.content h3 {
+  font-weight: 800;
+}
+
+.content p {
+  font-weight: 600;
+}
+
+button {
+  background-color: var(--primary-color);
+  border: 0;
+  box-shadow: 0px 3px 6px #00000029;
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+  color: white;
+}
+
+button p {
+  font-weight: 600;
+  font-size: 16px;
+
+  margin: 0 auto;
 }

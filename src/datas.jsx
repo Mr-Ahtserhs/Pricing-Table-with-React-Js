@@ -1,0 +1,111 @@
+import React from "react";
+
+//if you want to add list be sure to call the value in home file
+const Data = [
+  //card1
+  {
+    Title: "Basic",
+    price: "50",
+    list1: "1 Website",
+    list2: "500MB SSD Space",
+    list3: "5GB Bandwidth",
+    list4: "Free SSL Certificate",
+    list5: "Free Email Account",
+  },
+  //card2
+  {
+    Title: "Pro",
+    price: "100",
+    list1: "2 Website",
+    list2: "4GB SSD Space",
+    list3: "40GB Bandwidth",
+    list4: "Free SSL Certificate",
+    list5: "Free Email Account",
+    list6: "Virus Scanner",
+    list7: "Softaculous App Installer",
+  },
+  //card3
+  {
+    Title: "Developer",
+    price: "150",
+    list1: "4 Website",
+    list2: "8GB SSD Space",
+    list3: "Unlimited Bandwidth",
+    list4: "Free SSL Certificate",
+    list5: "Free Email Account",
+    list6: "Virus Scanner",
+    list7: "Softaculous App Installer",
+    list8: "Git Version Control",
+    list9: "Terminal Access",
+  },
+  //card4
+  {
+    Title: "Business",
+    price: "200",
+    list1: "10 Website",
+    list2: "20GB SSD Space",
+    list3: "Unlimited Bandwidth",
+    list4: "Free SSL Certificate",
+    list5: "Free Email Account",
+    list6: "Virus Scanner",
+    list7: "Softaculous App Installer",
+    list8: "Git Version Control",
+    list9: "Terminal Access",
+  },
+  //Add here if you want
+  //note the grid coloumn is 4 if u want to change go to index.css
+  {
+    Title: "Business",
+    price: "200",
+    list1: "10 Website",
+    list2: "20GB SSD Space",
+    list3: "Unlimited Bandwidth",
+    list4: "Free SSL Certificate",
+    list5: "Free Email Account",
+    list6: "Virus Scanner",
+    list7: "Softaculous App Installer",
+    list8: "Git Version Control",
+    list9: "Terminal Access",
+  },
+  {
+    Title: "Business",
+    price: "200",
+    list1: "10 Website",
+    list2: "20GB SSD Space",
+    list3: "Unlimited Bandwidth",
+    list4: "Free SSL Certificate",
+    list5: "Free Email Account",
+    list6: "Virus Scanner",
+    list7: "Softaculous App Installer",
+    list8: "Git Version Control",
+    list9: "Terminal Access",
+  },
+  {
+    Title: "Business",
+    price: "200",
+    list1: "10 Website",
+    list2: "20GB SSD Space",
+    list3: "Unlimited Bandwidth",
+    list4: "Free SSL Certificate",
+    list5: "Free Email Account",
+    list6: "Virus Scanner",
+    list7: "Softaculous App Installer",
+    list8: "Git Version Control",
+    list9: "Terminal Access",
+  },
+  {
+    Title: "Business",
+    price: "200",
+    list1: "10 Website",
+    list2: "20GB SSD Space",
+    list3: "Unlimited Bandwidth",
+    list4: "Free SSL Certificate",
+    list5: "Free Email Account",
+    list6: "Virus Scanner",
+    list7: "Softaculous App Installer",
+    list8: "Git Version Control",
+    list9: "Terminal Access",
+  },
+];
+
+export default Data;
